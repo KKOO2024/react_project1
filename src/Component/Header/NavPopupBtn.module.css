@@ -1,0 +1,47 @@
+.dmicon {
+    color: white;
+    font-size: 2rem;
+    width: 3rem;
+}
+
+.dmbutton {
+    background-color: black;
+    border: none;
+}
+
+/* 추가 */
+
+
+.NavPopupBtnON {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 299;
+    width: 300px;
+    height: 3rem;
+    display: flex; /* flex랑 none이랑 왔다갔다*/
+    align-items: center;
+    justify-content: right;
+    padding: 10px;
+    border: none;
+    background-color: rgb(31, 31, 31);
+    border-radius: 0 1rem 0 0;
+
+}
+
+.NavPopupBtn {
+    background-color: rgb(31, 31, 31);
+    border: none;
+}
+
+.closeicon {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.par {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,38 @@
+.navUI {
+    width: 100%;
+    height: calc(100vh - 6rem);
+}
+
+.navlistUI {
+    width: 100%;
+    height: 3rem;
+}
+
+.navCon, .navConDeny {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #ddd;
+}
+
+.navCon:hover {
+    background-color: rgba(43, 43, 43, 0.5);
+    color: #fff;
+    cursor: pointer;
+}
+
+.loginoutUI {
+    width: 100%;
+    height: 3rem;
+}
+
+.footer {
+    width: 100%;
+    height: calc(100% - 9rem);
+    color: #aaa;
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 0.8rem;
+}

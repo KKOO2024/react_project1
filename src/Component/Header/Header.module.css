@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.NavPopupBtnOFF {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 199;
+    width: 30%;
+}
+
+.par {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

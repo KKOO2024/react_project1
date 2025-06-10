@@ -1,0 +1,32 @@
+.con2 {
+    width: 30%;
+    height: 60%;
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.con3, .con4 {
+    width: 100%;
+    height: 20%;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.subCon1, .subCon2 {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+
+.subConTitle {
+    width: auto;
+    height: auto;
+    background-color: rgb(32, 32, 32);
+    display: inline-block;
+    color: white;
+    padding: 0 20px 0 4px;
+    border-radius: 0 20px 20px 0;
+    font-weight: bold;
+}
